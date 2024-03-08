@@ -1,0 +1,43 @@
+.newtask-container{
+    max-width: 700px;
+    margin: 1vh auto;
+	
+}
+
+.newtask-content{
+	/* border: 1px solid #000000; */
+	border-radius: 8px;
+	padding: 4px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.newtask-content .inputs{
+    height: 2rem;
+	font-family: "Poppins", sans-serif;
+    width: 97%;
+    font-size: 1rem;
+	outline: none;
+	border: none;
+	margin: 0px 1px;
+	padding: 4px 8px;
+	/* border: 1px solid red; */
+}
+
+/* .newtask-content .inputs:focus {
+	border: 1px solid #000000;
+	border-radius: 4px;
+
+} */
+
+.newtask-content .inputs::placeholder {
+	color: #cbcbcb;
+}
+
+.newtask-content #titleinput{
+	margin: 2px 0;
+}
+
+.newtask-content #bodyinput{
+	height: 4rem;
+	display: none;
+}

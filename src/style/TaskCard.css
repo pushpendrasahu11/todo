@@ -1,0 +1,87 @@
+.taskcard-container{
+    background-color:#e0fd98;
+    border-radius: 8px;
+    width: 18vw;
+    margin: 10px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.taskcard-title h2{
+    text-align: left;
+    margin: 0;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    overflow-y:hidden;
+    overflow-wrap: break-word;
+}
+
+.taskcard-body p{
+    text-align: left;
+    margin: 1rem 0;
+    height: max-content;
+    max-height: 27vh;
+    overflow-y:scroll;
+    overflow-wrap: break-word;
+}
+
+.taskcard-container:hover p{
+    max-height: max-content;
+}
+
+.taskcard-container:hover h2{
+    /* max-height: fit-content; */
+    min-height: 2.5rem;
+    height: auto;
+    overflow-y:hidden;
+    overflow-wrap: break-word;
+}
+
+.taskcard-body p::-webkit-scrollbar{
+    display: none;
+}
+
+
+.taskcard-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.taskcard-options div{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.taskcard-options span{
+    font-size: 0.8rem;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    padding: 0 2px;
+    background-color: white;
+    display: none;
+    opacity: 0.6;
+    position: absolute;
+    
+}
+
+.taskcard-options :nth-child(1) span{
+    margin-left: -4px;
+}
+
+.taskcard-options :nth-child(2) span{
+    margin-left: -16px;
+}
+
+.taskcard-options :nth-child(3) span{
+    margin-left: -28px;
+}
+
+.taskcard-options div:hover span{
+    display: block;
+}

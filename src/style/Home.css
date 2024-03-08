@@ -1,0 +1,22 @@
+
+.home-top{
+    /* background-color: #9BCF53; */
+    /* border-radius: 20px; */
+    margin: 4vh 4vw;
+    padding: 4vh;
+    height: 15vh;
+}
+
+.home-body{
+    margin: 1vh 4vw;
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color:#000000 ; */
+    border-radius: 20px;
+    /* align-items:flex-start; */
+    justify-content: space-evenly;
+}
+
+
