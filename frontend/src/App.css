@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-  background-color: rgb(188, 214, 214);
+  background-color: rgb(197, 235, 170);
   font-family: 'Poppins', sans-serif;
 }
 /* customize scroll bar */
@@ -11,7 +11,7 @@ body{
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 255, 0.705);
+  background: rgba(119, 0, 255, 0.705);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -19,10 +19,10 @@ body{
 }
 .active, .logout{
   color: white;
-  background-color: rgb(58, 58, 197);
+  background-color: rgb(123, 58, 197);
   font-weight: bolder;
   padding: 5px 10px;
-  border-radius: 50px;
+  border-radius: 10px;
   box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
 }
 task-container{

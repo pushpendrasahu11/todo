@@ -21,7 +21,7 @@ const forgotPassword = async (req, res) => {
     await user.save();
     
     //Send email with reset token
-    const resetUrl = `https://localhost:3000/resetPassword?token=${resetToken}`;
+    const resetUrl = `http://localhost:3000/resetPassword?token=${resetToken}`;
     var transporter = createTransport({
         service: 'gmail',
         host: 'smtp.gmail.com',
