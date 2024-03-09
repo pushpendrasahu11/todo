@@ -34,5 +34,5 @@ npm start
 ```
 # Live Preview
 
-
+[Deployed Link](https://todo-1-six.vercel.app/)
 
